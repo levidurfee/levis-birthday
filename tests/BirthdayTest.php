@@ -7,6 +7,7 @@ class BirthdayTest extends \PHPUnit_Framework_TestCase
 
 	protected function setUp()
 	{
+		require_once('bootstrap.php');
 		$this->bday = new Birthday;
 	}
 
