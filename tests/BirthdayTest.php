@@ -10,7 +10,7 @@ class BirthdayTest extends \PHPUnit_Framework_TestCase
 
 	protected function setUp()
 	{
-		require_once(ROOT . DS . 'src' . 'Birthday.php');
+		require_once(ROOT . DS . 'src' . DS . 'Birthday.php');
 		$this->bday = new Birthday;
 	}
 
