@@ -1,5 +1,8 @@
 <?php namespace levidurfee;
 
+define("DS", DIRECTORY_SEPARATOR);
+define("ROOT", dirname(dirname(__FILE__)));
+
 class BirthdayTest extends \PHPUnit_Framework_TestCase
 {
 
@@ -7,7 +10,7 @@ class BirthdayTest extends \PHPUnit_Framework_TestCase
 
 	protected function setUp()
 	{
-		require_once('bootstrap.php');
+		require_once(ROOT . DS . 'src' . 'Birthday.php');
 		$this->bday = new Birthday;
 	}
 
