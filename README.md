@@ -6,6 +6,4 @@
 
 Is it Levi's birthday?
 
-**This build will only be passing once a year**
-
 [Live demo](https://shit.teklife.info/levis-birthday/).

@@ -22,6 +22,10 @@ class BirthdayTest extends \PHPUnit_Framework_TestCase
 	public function testCheck()
 	{
 		$result = $this->bday->check();
-		$this->assertTrue($result);
+		if(date("m-d") == "07-17") {
+			$this->assertTrue($result);
+		} else {
+			$this->assertFalse($result);
+		}
 	}
 }
